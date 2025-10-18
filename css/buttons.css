@@ -10,13 +10,21 @@ button {
     padding: 0;
     border-radius: 0;
     border: none;
+    background-color: transparent;
+    color: #1E352F;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #335145;
+    color: #A6C36F;
 }
 
 .center-left-button {
-    border-left: black 3px solid;
-    border-right: black 3px solid;
+    border-left: #1E352F 3px solid;
+    border-right: #1E352F 3px solid;
 }
 
 .center-right-button {
-    border-right: black 3px solid;
+    border-right: #1E352F 3px solid;
 }
