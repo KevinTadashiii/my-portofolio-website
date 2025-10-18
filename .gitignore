@@ -56,7 +56,6 @@ coverage/
 # WebStorm / JetBrains IDEs
 .idea/
 *.iml
-out/
 
 # Sublime
 *.sublime-project
@@ -74,7 +73,6 @@ out/
 .env.production.local
 
 # Testing tools
-coverage/
 .nyc_output/
 
 # =====================================
@@ -102,8 +100,6 @@ temp/
 
 # Backup files
 *~
-*.bak
-
 # Lock files
 *.lock
 
